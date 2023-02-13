@@ -1,0 +1,14 @@
+
+
+appName: myhelmapp
+
+port: 80
+
+namespace: webapp
+
+configmap:
+  name: index-html-configmap
+
+image:
+  name: nginx
+  tag: latest
